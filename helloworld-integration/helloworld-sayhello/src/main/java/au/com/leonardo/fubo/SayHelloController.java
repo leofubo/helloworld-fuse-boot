@@ -15,7 +15,7 @@ public class SayHelloController {
     ProducerTemplate producerTemplate;
 
     @GetMapping(value = {"/hello/{name}", "/hello"})
-    public String sayHello(@PathVariable() String name) {
+    public String sayHello(@PathVariable(name = "name", required = false) String name) {
 
         if (name == null) {
             name = "friend";
