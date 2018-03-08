@@ -1,0 +1,47 @@
+~*
+*.autosave
+.directory
+
+# Eclipse project files
+.project
+.metadata
+.DS_Store
+.classpath
+.settings/
+
+# Intellij project files
+.idea/
+*.iml
+_Deparsed_XSubs.pm
+# ...Intellij/perl autogen'd file
+*___jb_old___
+
+# Maven
+target/
+bin/
+tmp/
+generated/
+*.releaseBackup
+release.properties
+
+# Business Central tmp files
+*.tlog
+*.png
+
+# General
+*.tmp
+*.bak
+*.swp
+local.properties
+.loadpath
+*.jar
+*.VersionsBackup
+*.log
+*.log.*
+
+# Citrus msg traces
+**/logs/
+*.msgs
+test-output/
+
+.recommenders/
